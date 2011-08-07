@@ -1,0 +1,42 @@
+h1 {
+	font-size: 30px;
+	font-family: monospace;
+}
+
+h6 {
+	max-width: 650px;
+	text-align: justify;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: monospace;
+}
+/* Left sidebar and menu */
+#leftside { font-size: 10px; font-family: monospace; height: 100%; min-width: 150px; margin-left: 25px; margin-bottom: 10px; margin-right: 25px; margin-top: 0px; clear:left; float:left; padding:0; width:150px;}
+#leftside ul.avmenu {max-height: 1500px; min-height: 300px; height: auto; margin-left: 0; margin-bottom: 18px; margin-right: 0; margin-top: 5px; list-style:none; padding:0; width:150px;}
+#leftside ul.avmenu li {display:inline; padding:0; width:150px;}
+#leftside ul.avmenu li a {background: repeat-x bottom left #f4f4f4; border-bottom:1px solid #d8d8d8; border-left:4px solid #ccc; border-right:1px solid #d8d8d8; border-top:1px solid #d8d8d8; color:#505050; float:left; font-size:1em; font-weight:700; margin-bottom:5px; padding:5px 1px 5px 5px; text-decoration:none; width:138px;}
+#leftside ul.avmenu li a:hover,#leftside ul.avmenu li a.current {background: repeat-x bottom left #eaeaea; border-bottom:1px solid #b0b0b0; border-left:4px solid #505050; border-right:1px solid #b0b0b0; border-top:1px solid #b0b0b0; color:#505050;}
+#leftside ul.avmenu ul {font-size:0.9em; margin:0 0 0 15px; padding:0 0 5px 0; width:133px;}
+#leftside ul.avmenu ul a {padding:3px 1px 3px 5px; width:123px;}
+#leftside ul.avmenu ul ul {font-size:1em; width:120px;}
+#leftside ul.avmenu ul ul a {width:108px;}
+#leftside .announce { margin-left: 0; margin-bottom: 5px; margin-right: 0; margin-top: 25px; background:url(img/menubg.gif) repeat-x bottom left #f4f4f4; border-bottom:1px solid #d8d8d8; border-left:4px solid #ccc; border-right:1px solid #d8d8d8; border-top:1px solid #d8d8d8; clear:left; color:#505050; line-height:1.3em; padding:5px 5px 5px; width:134px;}
+
+/* Write your CSS here */
+html{ margin-bottom: 50px; background-repeat: repeat; text-align: justify; }
+body{ margin-left: 0; margin-right: 0; margin-top: 0; min-height: 500px; text-align: justify;background: repeat-y center; background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;}
+#container{ min-height: 450px; font-size: 10px; font-family: monospace; height: auto; margin-left: auto; margin-bottom: 50px; margin-right: auto; margin-top: 50px; border-color: #333333; border-width: 1px; border-style: dashed; background-color: #b3b3b3; width: 750px;text-align: justify;}
+#container2{ margin-left: 15px; font-family: monospace; max-width: 700px; min-width: 700px; text-align: justify; padding:10px;}
+pre{ margin-right: 100px; text-align: center; font-family: monospace; font-size: 10px; }
+p{ text-align: justify; }
+img{ height: 100px; width: 100px; max-height: 100px; max-width: 100px; text-shadow: 0px 0px 1px black; border-color: black; border-style: outset; border-width: 1px; }
+#imgcontainer{ min-width: 530px; background-image: url(whitey.png); margin-left: 175px; border-style: solid; border-width: 1px; }
+#coolp{ text-align: center; margin-right: 10px; margin-left: 10px; font-size: 15px; font-family: monospace; font-weight: bold; }
+
